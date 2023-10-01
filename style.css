@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
         
 /* Font Family Definitions */
 body {
@@ -8,11 +9,21 @@ font-family: 'Roboto', sans-serif; /* Use Roboto as the default font */
     font-family: Arial, Helvetica, sans-serif; /* Use Arial for the brand font */
 }
 
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 .common-bg {
     background-image: url('Hero.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.feature-bg{
+    background-image: url('design.png');
+    background-size: contain;
+    background-position: unset;
 }
 
 .scontainer {
