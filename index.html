@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louis Vuitton</title>
+    <!-- Include the Tailwind CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include Swiper.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include the AOS library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body class="bg-white font-sans">
+    <!-- Navigation Bar -->
+    <div class="common-bg">
+        <header class="bg-transparent hover:bg-white shadow-md lg:shadow-none z-50">
+            <div class="container mx-auto px-4 py-4">
+                <nav class="flex flex-col lg:flex-row justify-between items-center">
+                    <a href="#" class="text-2xl font-bold text-brown-600" style="font-family: Arial, Helvetica, sans-serif;">Louis Vuitton</a>
+                    <ul class="flex space-x-6 mt-4 lg:mt-0">
+                        <li><a href="#home" class="text-yellow-600 hover:text-brown-600">Home</a></li>
+                        <li><a href="#shop" class="text-yellow-600 hover:text-brown-600">Shop</a></li>
+                        <li><a href="#designers" class="text-yellow-600 hover:text-brown-600">Designers</a></li>
+                        <li><a href="#contact" class="text-yellow-600 hover:text-brown-600">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>        
+    
+        <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-screen flex items-center lg:px-2">
+        <div class="container mx-auto text-center mt-52 lg:mt-80 lg:px-2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mx-10 px-8">
+                    <!-- Shop Now Button -->
+                    <button type="button" class="mt-5 bg-yellow-500 text-white px-4 py-3 rounded-full text-xl hover:bg-brown-700 transition duration-300 border-2 border-yellow-500 hover:border-white hover:text-white hover:bg-black font-bold" data-aos="zoom-out">Shop Now</button>
+                    <!-- Text Content -->
+                    <div class="text-left" data-aos="fade-left" data-aos-duration="2500">
+                        <h1 class="text-5xl font-semibold text-yellow-500 mt-10 mb-6 text-center lg:text-start">Discover Luxury Fashion</h1>
+                        <p class="text-lg text-white mb-12">Explore the latest high-end fashion collections.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+
+    <!-- Video Section -->
+    <section id="shop" class="text-white relative shadow-2xl">
+        <div class="container mx-auto text-center">
+            <div class="relative" style="padding-top: 56.25%;">
+                <video autoplay muted loop class="absolute inset-0 w-full h-full" poster="video-poster.jpg">
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="absolute inset-0 items-center justify-center lg:mt-64 mt-24 mb-2" data-aos="fade-up">
+                    <h2 class="text-xl lg:text-3xl font-bold lg:mt-48" data-aos="zoom-in">Our Newest Collection</h2>
+                    <p class="text-lg lg:text-3xl font-bold" data-aos="zoom-in">GL-0W</p>
+                    <button type="button" class="bg-transparent hover:bg-black text-white  lg:mt-2 px-5 py-2 border-white border-2 rounded-3xl" data-aos="zoom-in">Discover</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Winter Section -->
+<section  class="text-yellow-300 relative shadow-2xl">
+    <div class="container mx-auto text-center">
+    <div class="relative">
+        <img src="Collection_Winter.jpg" alt="winter" class="w-full h-auto"> 
+        <div class="absolute inset-0 flex flex-col items-center justify-center lg:mt-44 mt-8 mb-2" data-aos="fade-up">
+            <div class="snow_wrap">
+                <div class="snow"></div>
+            <div class="ml-44 px-2 lg:pl-16 lg:ml-0 lg:mt-72 text-center">
+                <h2 class="text-lg lg:text-3xl font-bold lg:mt-4" data-aos="zoom-in">Winter Collection</h2> 
+                <p class="text-md lg:text-3xl font-semibold mt-2" data-aos="zoom-in">IC-E</p> 
+                <button type="button" class="bg-transparent hover:bg-white text-white hover:text-black mt-5 lg:mt-2 px-5 py-2 border-white border-2 rounded-3xl" data-aos="zoom-in">Discover</button> 
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Goat Section -->
+<section class="bg-white">
+    <div class="container mx-auto flex flex-col md:flex-row">
+    <!-- First Part -->
+    <div class="md:w-1/2 relative">
+        <img src="goats.jpeg" alt="Background Image 1" class="w-full h-auto" >
+        <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <div class="lg:mt-72 py-3" data-aos="fade-right" data-aos-duration="3000">
+                <h2 class="text-3xl font-semibold mb-4">Consistency & Legacy</h2>
+                <p class="text-lg">Our most beloved collection</p>
+                <button type="button" class="bg-transparent  text-white hover:text-yellow-300  mt-5 lg:mt-2 px-5 py-2 border-white border-2 hover:border-yellow-300 rounded-3xl" data-aos="zoom-in">Discover</button> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- Second Part -->
+    <div class="md:w-1/2 relative">
+        <img src="Jewelry_Blossom.jpg" alt="Background Image 2" class="w-full h-auto" >
+        <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <div class="lg:mt-72 py-3" data-aos="fade-left" data-aos-duration="3000">
+                <h2 class="text-3xl font-semibold mb-4">BLO-AWSOME</h2>
+                <p class="text-lg">Jewelry Blossom Collection for the new gen</p>
+                <button type="button" class="bg-transparent  text-white hover:text-yellow-300  mt-5 lg:mt-2 px-5 py-2 border-white border-2 hover:border-yellow-300 rounded-3xl" data-aos="zoom-in">Discover</button> 
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- Featured Designers -->
+    <section id="designers" class="bg-yellow-300 py-24">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-brown-600 mb-8">Featured Designers</h2>
+            
+            <!-- Swiper Container -->
+            <div class="swiper-container overflow-x-hidden">
+                <div class="swiper-wrapper">
+                    <!-- Designer Profile Card (Repeat this for each designer) -->
+                    <div class="swiper-slide p-4">
+                        <div class="bg-white shadow-lg rounded-lg p-4">
+                            <img src="designer1.jpg" alt="Designer 1" class="w-24 h-24 rounded-full mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-brown-600">Designer Name 1</h3>
+                            <p class="text-yellow-600">Fashion Designer</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-brown-600 hover:underline">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat the designer profile card for other featured designers -->
+                    <div class="swiper-slide p-4">
+                        <div class="bg-white shadow-lg rounded-lg p-4">
+                            <img src="designer2.jpg" alt="Designer 2" class="w-24 h-24 rounded-full mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-brown-600">Designer Name 2</h3>
+                            <p class="text-yellow-600">Fashion Designer</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-brown-600 hover:underline">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-4">
+                        <div class="bg-white shadow-lg rounded-lg p-4">
+                            <img src="designer3.jpg" alt="Designer 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-brown-600">Designer Name 3</h3>
+                            <p class="text-yellow-600">Fashion Designer</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-brown-600 hover:underline">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-4">
+                        <div class="bg-white shadow-lg rounded-lg p-4">
+                            <img src="designer3.jpg" alt="Designer 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-brown-600">Designer Name 3</h3>
+                            <p class="text-yellow-600">Fashion Designer</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-brown-600 hover:underline">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-4">
+                        <div class="bg-white shadow-lg rounded-lg p-4">
+                            <img src="designer3.jpg" alt="Designer 3" class="w-24 h-24 rounded-full mx-auto mb-4">
+                            <h3 class="text-xl font-semibold text-brown-600">Designer Name 3</h3>
+                            <p class="text-yellow-600">Fashion Designer</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-brown-600 hover:underline">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more designer cards as needed -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="contact" class="bg-yellow-200 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-brown-600 mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="p-4">
+                    <div class="bg-white shadow-lg rounded-lg p-2">
+                        <div class="flex flex-col lg:flex-row lg:items-center">
+                            <div class="mb-4 lg:mb-0 lg:mr-4">
+                                <img src="HP_Services_Push_Art_Of_Gifting_DI2.jpg" alt="Service 1" class="w-24 h-24 mx-auto lg:mx-0">
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-brown-600">Service Title 1</h3>
+                                <p class="text-yellow-600">Description of Service 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-4">
+                    <div class="bg-white shadow-lg rounded-lg p-2">
+                        <div class="flex flex-col lg:flex-row lg:items-center">
+                            <div class="mb-4 lg:mb-0 lg:mr-4">
+                                <img src="HP_Services_Push_Personalization_DI2.jpg" alt="Service 2" class="w-24 h-24 mx-auto lg:mx-0">
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-brown-600">Service Title 2</h3>
+                                <p class="text-yellow-600">Description of Service 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-4">
+                    <div class="bg-white shadow-lg rounded-lg p-2">
+                        <div class="flex flex-col lg:flex-row lg:items-center">
+                            <div class="mb-4 lg:mb-0 lg:mr-4">
+                                <img src="HP_Services_Push_Contact_Us_DI2.jpg" alt="Service 3" class="w-24 h-24 mx-auto lg:mx-0">
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-brown-600">Service Title 3</h3>
+                                <p class="text-yellow-600">Description of Service 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="p-4">
+                    <div class="bg-white shadow-lg rounded-lg p-2">
+                        <div class="flex flex-col lg:flex-row lg:items-center">
+                            <div class="mb-4 lg:mb-0 lg:mr-4">
+                                <img src="pexels-yusuf-sabqi-18421667.jpg" alt="Service 4" class="w-24 h-24 mx-auto lg:mx-0">
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-brown-600">Service Title 4</h3>
+                                <p class="text-yellow-600">Description of Service 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- You can add more services as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-yellow-100 py-8">
+        <div class="container mx-auto text-center">
+            <p class="text-brown-500">&copy; 2023 Luxury Fashion</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 4,
+                },
+            },
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
